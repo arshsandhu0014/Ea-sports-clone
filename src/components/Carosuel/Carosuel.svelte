@@ -7,16 +7,16 @@
                 <button class=" flex items-center text-black bg-gray-200 text-2xl ml-20 mt-3  p-4 rounded"> Start Saving</button>
               </div>
             
-              <div class=" mt-28 ea-lower-img bg-[url('images/Carosuel/lower-bg-img.jpg')]" >
+              <div class=" mt-24 ea-lower-img bg-[url('images/Carosuel/lower-bg-img.jpg')]" >
                 <div class="flex justify-start mr-5 ">
                     <h1 class="flex justify-items-start items-center text-3xl text-black pt-8 pb-8 pr-96 pl-20   ">FIFA 23 is now on The Play List </h1>
                     <div class=" flex justify-end ">
-                     <div class="pt-3 pl-40">
-                       <img  class="justify-center" style="height: 100px; width:100px;" src="/images/Carosuel/ea-play-logo.svg" alt="/">
+                     <div class=" pl-40">
+                       <img  class="justify-center" style="height: 125px; width:125px;" src="/images/Carosuel/ea-play-logo.svg" alt="/">
                         </div>
-                        <div class="pt-6">
+                        <div class="pt-4">
 
-                            <button class=" flex items-center text-black   button-border text-2xl ml-5 mt-3  p-2 rounded"> Join Now</button>
+                            <button class=" flex items-center text-black   button-border text-2xl ml-5 mt-2  pr-10 pl-10 pt-5 pb-5 rounded"> Join Now</button>
 
                         </div>
                 
@@ -54,7 +54,7 @@
     line-height: 0;
     position: absolute;
     width: 100%;
-    height: 35%;
+    height: 30%;
 
 }
 
