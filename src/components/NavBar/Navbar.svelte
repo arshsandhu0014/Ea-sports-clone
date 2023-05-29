@@ -1,16 +1,18 @@
 
-<script>
 
-</script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js">
+    
+    </script>
 
 
-<div class="container flex justify-start  items-center  max-w-full h-14">
-    <div class="container flex items-center ml-10">
-        <div class=" flex justify-center items-center flex-row-reverse w-8 h-6 ">
-            <img  src="/images/NavBar/dots.png" alt="">
+
+<div class="container flex justify-start  items-center  max-w-full h-20">
+    <div class="container flex items-center ml-4">
+        <div class=" flex justify-center items-center flex-row-reverse  ">
+            <img  src="/images/NavBar/dots.png" alt="" style="height: 25px; width: 24px;">
          </div>
          
-        <div class="ml-12 mr-9">
+        <div class="ml-8 mr-5  h-full">
             <img src="/images/NavBar/ea-logo.svg" alt="/">
         </div>  
 
@@ -115,6 +117,10 @@
       </li>
     </ul>
 </div>
+
+
+
+
 
 
        
