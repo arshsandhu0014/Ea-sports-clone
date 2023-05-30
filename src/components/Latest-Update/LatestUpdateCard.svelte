@@ -10,8 +10,8 @@
   </script>
   
   <div class="bg-white flex flex-col  shadow-md rounded-md m-4">
-    <img src={imageSrc} alt="" height="300px" width="300px"> 
-    <h2 class="text-xl font-bold text-center ">{title}</h2>
-    <p class="mt-2 text-center">{content}</p>
+    <img src={imageSrc} alt="/"> 
+    <h2 class=" text-2xl font-bold ml-2 mr-2 mt-5 ">{title}</h2>
+    <p class="mt-2 text p-2">{content}</p>
   </div>
   

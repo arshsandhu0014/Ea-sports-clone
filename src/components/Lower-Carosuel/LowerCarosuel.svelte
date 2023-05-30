@@ -1,18 +1,18 @@
-<div class=" container mt-4  ">
+<div class=" container mt-10  ">
     <div class=" eapl-hero__image   max-w-full bg-[url('/images/lower-corosuel/bg-lower.jpg')]">
               
-             <div class=" flex justify-normal items-start flex-col pt-32 pr-96 pb-3 pl-48  ">
-                <div class=" pl-40">
-                    <img  class="justify-center" style="height: 125px; width:125px;" src="/images/Carosuel/ea-play-logo.svg" alt="/">
+             <div class=" flex justify-end items-start flex-col  pl-48 ">
+                <div class="pl-12 pt-20">
+                    <img  class=" justify-start" src="/images/Carosuel/ea-play-logo.svg" alt="/">
                      </div>
-                <h1 class="flex justify-center items-center text-white   ">Don’t just get the game. Get more from your game. Unlock</h1>
-                <h2 class=" flex justify-center items-center text-white  mt-8">exclusive rewards, members-only content, and a library of top titles.</h2>
-                <button class="  button-border-white flex items-center text-white text-2xl ml-20 mt-3  p-4 rounded"> Join Now</button>
+                <h1 class="flex justify-center items-center text-white text-xl  mt-10 ">Don’t just get the game. Get more from your game. Unlock</h1>
+                <h2 class=" flex justify-center items-center text-white  text-xl mt-3">exclusive rewards, members-only content, and a library of top titles.</h2>
+                <button class="  button-border-white flex items-center text-white text-2xl ml-20 mt-10 mb-20  p-4 rounded"> Join Now</button>
               </div>
             
               <div class=" ea-lower-img bg-[url('images/lower-corosuel/blue-bg-lower.jpg')]" >
                 <div class="flex justify-between mr-5 ">
-                    <h1 class="flex justify-items-start items-center text-3xl text-black pt-8 pb-8 pr-96 pl-20   ">FIFA 23 is now on The Play List </h1>
+                    <h1 class="flex justify-items-start items-center text-3xl text-black pt-2 pb-8 pr-96 pl-20   ">FIFA 23 is now on The Play List </h1>
                     <div class=" flex justify-end ">
                      
                         <div class="pt-4 pr-28">
