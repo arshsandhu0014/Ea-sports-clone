@@ -1,8 +1,6 @@
 
 <script lang="ts">
 	import Tab from "./Tab.svelte";
-
-  import LatestUpdateCards from "./LatestUpdateCard.svelte";
 	import LatestUpdateCard from "./LatestUpdateCard.svelte";
 	import { current_component } from "svelte/internal";
   export let current_value:string="eaNews";
