@@ -7,21 +7,21 @@
     { title: 'INTRODUCING EA SPORTS FCT, THE NEXT CHAPTER OF THE WORLDS GAME', content: 'Fans Can Sign Up Today to Learn More About the Interactive Future of Football, with Detailed Product Information Coming this July', imageSrc:'./images/LatestUpdate/cards/eaNews/6.jpg' },
   ];
   export let fifa_cards_data = [
-    { title: 'Card 7', content: 'Content for Card 1' , imageSrc:'./images/LatestUpdate/cards/fifa/1.jpg', },
-    { title: 'Card 8', content: 'Content for Card 2', imageSrc:'./images/LatestUpdate/cards/fifa/2.jpg' },
-    { title: 'Card 9', content: 'Content for Card 3', imageSrc:'./images/LatestUpdate/cards/fifa/3.jpg' },
-    { title: 'Card 10', content: 'Content for Card 3', imageSrc:'./images/LatestUpdate/cards/fifa/4.png' },
-    { title: 'Card 11', content: 'Content for Card 3', imageSrc:'./images/LatestUpdate/cards/fifa/5.jpg' },
-    { title: 'Card 12', content: 'Content for Card 3', imageSrc:'./images/LatestUpdate/cards/fifa/6.jpg' },
+    { title: 'FIFA 23 | Pitch Notes - Title Update #9', content: 'Title Update #9 (TU #9) includes updates to multiple areas of gameplay, including player movement, jockeyed interceptions, tackling and more' , imageSrc:'./images/LatestUpdate/cards/fifa/1.jpg', },
+    { title: 'FIFA 23 | Pitch Notes - UWCL and NWSL Deep Dive - EA SPORTS', content: 'Announcing the addition of the UEFA Womens Champions League(UWCL), and the National Women sSoccer League (NWSL)', imageSrc:'./images/LatestUpdate/cards/fifa/2.jpg' },
+    { title: 'Club Mascots Return to Ultimate Team - EA SPORTS Official Site', content: 'Club Mascots Return to Ultimate Team', imageSrc:'./images/LatestUpdate/cards/fifa/3.jpg' },
+    { title: 'EA SPORTS FIFA World Cup 2022™ Prediction', content: 'Club Mascots Return to Ultimate Team', imageSrc:'./images/LatestUpdate/cards/fifa/4.png' },
+    { title: 'FIFA 23 | Pitch Notes - FIFA World Cup', content: 'EA SPORTS™ predicts Argentina to win the FIFA World Cup 2022. See how the tournament played out in the FIFA 23 simulation', imageSrc:'./images/LatestUpdate/cards/fifa/5.jpg' },
+    { title: '23 Days of FIFA 23', content: 'We are excited to share lots of details about the upcoming FIFA World Cup 2022™ experience in FIFA 23', imageSrc:'./images/LatestUpdate/cards/fifa/6.jpg' },
   ];
   
   export let starWars_cards_data = [
-    { title: 'Card 13', content: 'Content for Card 1' , imageSrc:'./images/LatestUpdate/cards/Starwars/1.png', },
-    { title: 'Card 14', content: 'Content for Card 2', imageSrc:'./images/LatestUpdate/cards/Starwars/2.jpg' },
-    { title: 'Card 15', content: 'Content for Card 3', imageSrc:'./images/LatestUpdate/cards/Starwars/3.jpg' },
-    { title: 'Card 16', content: 'Content for Card 3', imageSrc:'./images/LatestUpdate/cards/Starwars/4.jpg' },
-    { title: 'Card 17', content: 'Content for Card 3', imageSrc:'./images/LatestUpdate/cards/Starwars/5.jpg' },
-    { title: 'Card 18', content: 'Content for Card 3', imageSrc:'./images/LatestUpdate/cards/Starwars/6.jpg' },
+    { title: 'FIFA 23 | Pitch Notes - Title Update #9', content: 'Title Update #9 (TU #9) includes updates to multiple areas of gameplay, including player movement, jockeyed interceptions, tackling and more' , imageSrc:'./images/LatestUpdate/cards/Starwars/1.png', },
+    { title: 'FIFA 23 | Pitch Notes - UWCL and NWSL Deep Dive - EA SPORTS', content: 'Announcing the addition of the UEFA Womens Champions League(UWCL), and the National Women sSoccer League (NWSL)', imageSrc:'./images/LatestUpdate/cards/Starwars/2.jpg' },
+    { title: 'Club Mascots Return to Ultimate Team - EA SPORTS Official Site', content: 'Club Mascots Return to Ultimate Team', imageSrc:'./images/LatestUpdate/cards/Starwars/3.jpg' },
+    { title: 'EA SPORTS FIFA World Cup 2022™ Prediction', content: 'EA SPORTS™ predicts Argentina to win the FIFA World Cup 2022. See how the tournament played out in the FIFA 23 simulation', imageSrc:'./images/LatestUpdate/cards/Starwars/4.jpg' },
+    { title: 'FIFA 23 | Pitch Notes - FIFA World Cup', content: 'We are excited to share lots of details about the upcoming FIFA World Cup 2022™ experience in FIFA 23.', imageSrc:'./images/LatestUpdate/cards/Starwars/5.jpg' },
+    { title: '23 Days of FIFA 23', content: 'See the best achievements from the EA SPORTS™ FIFA 23 community in the first 23 days since the release of The Worlds Game.', imageSrc:'./images/LatestUpdate/cards/Starwars/6.jpg' },
   ];
   export let madden_cards_data = [
     { title: 'Card 1', content: 'Content for Card 1' , imageSrc:'./images/LatestUpdate/cards/Madden/1.jpg', },
