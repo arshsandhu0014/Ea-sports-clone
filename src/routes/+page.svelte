@@ -6,6 +6,7 @@
 	import Featuredgames from "../components/Featured-Games/Featuredgames.svelte";
 	import Latestupdate from "../components/Latest-Update/Latestupdate.svelte";
 	import LowerCarosuel from "../components/Lower-Carosuel/LowerCarosuel.svelte";
+	import Footer from "../components/Footer/Footer.svelte";
 
 
 
@@ -17,3 +18,4 @@
 <Featuredgames/>
 <Latestupdate/>
 <LowerCarosuel/>
+<Footer/>
