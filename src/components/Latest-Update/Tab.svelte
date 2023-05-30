@@ -36,10 +36,10 @@
 >F1</button>
 
 <style>
-	.button {
+	/* .button {
 		display: block;
 		margin-left: 8rem;
-	}
+	} */
 
   .selected {
 		border-bottom-color: #ff3e00;
