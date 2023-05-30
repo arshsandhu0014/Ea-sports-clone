@@ -7,7 +7,7 @@
                 <button class=" flex items-center text-black bg-gray-200 text-2xl ml-20 mt-3  p-4 rounded"> Start Saving</button>
               </div>
             
-              <div class=" mt-24 ea-lower-img bg-[url('images/Carosuel/lower-bg-img.jpg')]" >
+              <div class=" mt-24 ea-lower-img bg-[url('/images/Carosuel/lower-bg-img.jpg')]" >
                 <div class="flex justify-start mr-5 ">
                     <h1 class="flex justify-items-start items-center text-3xl text-black pt-8 pb-8 pr-96 pl-20   ">FIFA 23 is now on The Play List </h1>
                     <div class=" flex justify-end ">
