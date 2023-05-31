@@ -16,19 +16,19 @@
   </script>
 
 
-<div class="container">
-    <h1 class="  flex justify-center text-6xl mb-20">Latest Updates</h1>
+<div class=" w-[100vw]">
+    <h1 class="  flex justify-center text-3xl md:text-6xl mb-20">Latest Updates</h1>
 
 
-    <div class="flex justify-center text-2xl pb-4">
+    <div class="flex justify-center  text-base sm:text-lg md:text-2xl pb-4">
       <Tab bind:current={current_value}/>
     </div>
  
     <div class=" flex justify-center  ">
 
       <div class="flex justify-center">
-        <div class="bg-white shadow-md rounded-md ml-44 mr-44">
-       <div class="grid grid-cols-3 gap-4">
+        <div class="bg-white flex justify-self-center shadow-md rounded-md ">
+       <div class=" grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 gap-4 ">
         {#if (current_value =="eaNews")}
          {#each eaNews_cards_data as eaNews, i}
            <LatestUpdateCard imageSrc={eaNews.imageSrc} content={eaNews.content} title={eaNews.title}/>

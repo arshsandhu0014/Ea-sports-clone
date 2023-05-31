@@ -1,8 +1,15 @@
+<script >
+  let isDropdownOpen = false;
 
+  function openDropdown() {
+    isDropdownOpen = true;
+  }
 
-    <script src="../path/to/flowbite/dist/flowbite.min.js">
-    
-    </script>
+  function closeDropdown() {
+    isDropdownOpen = false;
+  }
+</script>
+  
 
 
 
@@ -20,116 +27,122 @@
 
 
     <div class=" container flex justify-start  justify-items-start">
-  
-         
-<button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class=" m-8 text-black inline-flex items-center " type="button">Games</button>
-<!-- Dropdown menu -->
-<div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
-      </li>
-    </ul>
-</div>
-
-<button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class=" m-8 text-black first-line:text-white inline-flex items-center " type="button">More Experiences</button>
-<!-- Dropdown menu -->
-<div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
-      </li>
-    </ul>
-</div>
-
-
-<button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="m-8 text-black inline-flex items-center " type="button">About</button>
-<!-- Dropdown menu -->
-<div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
-      </li>
-    </ul>
-</div>
-
-<button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="m-8 text-black inline-flex items-center " type="button">Commitments</button>
-<!-- Dropdown menu -->
-<div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
-      </li>
-    </ul>
-</div>
-
-<button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="m-8 text-black inline-flex items-center " type="button">Resources</button>
-<!-- Dropdown menu -->
-<div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-      </li>
-      <li>
-        <a href="/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
-      </li>
-    </ul>
-</div>
-
-
-
-
-
-
+      
+     
+      <div class="dropdown ml-5" on:mouseenter={openDropdown} on:mouseleave={closeDropdown}>
+        <button class="dropdown-btn">Games</button>
+        {#if isDropdownOpen}
+          <div class="dropdown-content flex-row">
+            <a href="/">BROWSE GAMES</a>
+            <a href="/">Latest Games</a>
+            <a href="/">Coming Soon</a>
+            <a href="/">EA app Deals</a>
+            <a href="/">Games Library</a>
+            <a href="/">EA Originals</a>
+            <a href="/">Free-To-Play</a>
+          </div>
+          
+        {/if}
+      </div>
        
-  
+      <div class="dropdown slide-in-top ml-5" on:mouseenter={openDropdown} on:mouseleave={closeDropdown}>
+        <button class="dropdown-btn">More Experiences</button>
+        {#if isDropdownOpen}
+          <div class="dropdown-content">
+            <a href="/">EA Play</a>
+            <a href="/">The EA app</a>
+            <a href="/">Competitive Gaming</a>
+            <a href="/">EA Play Live</a>
+            <a href="/">Playtesting</a>
+          </div>
+        {/if}
+      </div>
+      <div class="dropdown ml-5" on:mouseenter={openDropdown} on:mouseleave={closeDropdown}>
+        <button class="dropdown-btn">About</button>
+        {#if isDropdownOpen}
+          <div class="dropdown-content">
+            <a href="/">Company</a>
+            <a href="/">EA Studios</a>
+            <a href="/">Careers</a>
+            <a href="/">Our Technology</a>
+            <a href="/">EA Partners</a>
+            <a href="/">News</a>
+            <a href="/">Inside EA</a>
+          </div>
+        {/if}
+      </div>
+      <div class="dropdown ml-5" on:mouseenter={openDropdown} on:mouseleave={closeDropdown}>
+        <button class="dropdown-btn">Commitments</button>
+        {#if isDropdownOpen}
+          <div class="dropdown-content">
+            <a href="/">Positive Play</a>
+            <a href="/">Inclusion & Diversity</a>
+            <a href="/">Social Impact</a>
+            <a href="/">People & Culture</a>
+            <a href="/">Environment</a>
+            <a href="/">Our Commitments</a>
+          </div>
+        {/if}
+      </div>
+      <div class="dropdown ml-5" on:mouseenter={openDropdown} on:mouseleave={closeDropdown}>
+        <button class="dropdown-btn">Resources</button>
+        {#if isDropdownOpen}
+          <div class="dropdown-content">
+            <a href="/">Help</a>
+            <a href="/">Forums</a>
+            <a href="/">Player and Parental Tools</a>
+            <a href="/">Accessibility</a>
+            <a href="/">Press</a>
+            <a href="/">Investors</a>
+          </div>
+        {/if}
+      </div>
 </div>
 </div>
           
 </div>
 
-  
 
+<style>
+   .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-btn {
   
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .slide-in-top {
+	-webkit-animation: slide-in-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+</style>

@@ -1,49 +1,41 @@
-<div class="container  ">
-    <div class=" flex justify-center max-w-full h-[540px]">
-        <h1 class="flex justify-center text-5xl text-black">hello</h1>
-    </div>
 
-    <div class=" h-56 bg-[#eaeaea] flex justify-start text-xl  pl-20 pt-5">
-     <a class="p-5" href="http://">Carreers</a>
-     <a class="p-5" href="http://">Executives</a>
-     <a class="p-5" href="http://">Impact Report</a>
-     <a class="p-5" href="http://">Carreers</a>
-     <div class=" flex justify-start flex-col mt-4 ml-[30%]">
+  <div class=" h-56 w-[100vw] ">
+    <div class=" bg-[#eaeaea] h-56 w-[100%] flex justify-between  text-xl pl-4 md:pl-2 pt-5 ">
+        <div class="px-20">
+            <a class="p-2 md:p-5" href="http://">Careers</a>
+            <a class="p-2 md:p-5" href="http://">Executives</a>
+            <a class="p-2 md:p-5" href="http://">Impact Report</a>
+            <a class="p-2 md:p-5" href="http://">Careers</a>
+        </div>
+     
+      <div class="flex flex-col px-10 ">
         <h3>Join The Conversation</h3>
-        <div class="flex flex-row  mt-5 space-x-10">
-            <img src="./images/Footer/facebook.png"  style="height: 30px; width: 30px;" alt="/">
-            <img src="./images/Footer/instagram.png" style="height: 30px; width: 30px;" alt="/">
-            <img src="./images/Footer/linkedin.png" style="height: 30px; width: 30px;" alt="/">
-            <img src="./images/Footer/twitch.png" style="height: 30px; width: 30px;" alt="/">
-            <img src="./images/Footer/twitter.png" style="height: 30px; width: 30px;" alt="/">
-
+        <div class="flex flex-row mt-2 md:mt-5 space-x-4 md:space-x-10">
+          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/facebook.png" style="height: 20px; width: 20px;" alt="/">
+          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/instagram.png" style="height: 20px; width: 20px;" alt="/">
+          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/linkedin.png" style="height: 20px; width: 20px;" alt="/">
+          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/twitch.png" style="height: 20px; width: 20px;" alt="/">
+          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/twitter.png" style="height: 20px; width: 20px;" alt="/">
         </div>
-        
+      </div>
+    </div>
+  
+    <div class="flex flex-row items-center  h-40 md:h-80 bg-[#f3f3f3]">
+      <div class="flex justify-start">
+        <img class="h-[50px] w-[50px] md:h-[100px] md:w-[100px] ml-4 md:ml-10 mt-2 md:mt-5" src="images/Footer/october-ea-ring.png" alt="/">
+      </div>
+      <div class="flex flex-row m-2 md:m-10 flex-wrap items-center">
+        <a class="p-2 md:p-5" href="http://">Game Library</a>
+        <a class="p-2 md:p-5" href="http://">Subscribe</a>
+        <a class="p-2 md:p-5" href="http://">Redeem Code</a>
+        <a class="p-2 md:p-5" href="http://">EA app</a>
+        <a class="p-2 md:p-5" href="http://">About</a>
+
+            <div class="flex flex-row m-2">
+                <a class="p-2 md:p-5" href="http://">Accessibility</a>
+                <a class="p-2 md:p-5" href="http://">Help</a>
+              </div>
+            </div>
+          </div>
         </div>
     
-
-    </div>
-
-    
-    <div class=" flex flex-row items-center h-80 bg-[#f3f3f3]">
-        <div class=" flex justify-start ">
-            <img class=" flex justify-start  h-[100px] w-[100px] ml-10 mt-5" src="images/Footer/october-ea-ring.png" alt="/">
-        </div>
-
-        <div class="flex flex-row m-10 flex-wrap items-center" >
-            <a class="p-5" href="http://">Game Library</a>
-     <a class="p-5" href="http://">Subscribe</a>
-     <a class="p-5" href="http://">Redeem Code</a>
-     <a class="p-5" href="http://">EA app</a>
-     <a class="p-5" href="http://">About</a>
-     <class class=" flex flex-row m-4">
-        <a class="p-5" href="http://">Accessibility</a>
-        <a class="p-5" href="http://">Help</a>
-     </class>
-
-        </div>
-    </div>
-
- 
- 
-</div>
