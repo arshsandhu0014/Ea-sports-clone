@@ -14,13 +14,13 @@ import Cards from "./Featured-Cards.svelte";
  
 </script>
 
-<div class="container  max-w-full">
-    <h1 class="  flex justify-center text-5xl pt">Featured Games</h1>
+<div class="container  w-[100]">
+    <h1 class="  flex justify-center text-4xl pt-14 pb-20">Featured Games</h1>
   </div>
 
      <div class="flex justify-center">
-     <div class="bg-white shadow-md rounded-md ml-44 mr-44">
-    <div class="grid grid-cols-3 gap-4">
+     <div class="bg-white shadow-md rounded-md mr-2 ml-2 sm:ml-44 sm:mr-44">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
       {#each cards as card, i}
         <Cards imageSrc={card.imageSrc} />
 

@@ -1,21 +1,21 @@
 
   <div class=" h-56 w-[100vw] ">
     <div class=" bg-[#eaeaea] h-56 w-[100%] flex justify-between  text-xl pl-4 md:pl-2 pt-5 ">
-        <div class="px-20">
+        <div class="">
             <a class="p-2 md:p-5" href="http://">Careers</a>
             <a class="p-2 md:p-5" href="http://">Executives</a>
             <a class="p-2 md:p-5" href="http://">Impact Report</a>
             <a class="p-2 md:p-5" href="http://">Careers</a>
         </div>
      
-      <div class="flex flex-col px-10 ">
+      <div class="flex flex-col mr-0 ">
         <h3>Join The Conversation</h3>
-        <div class="flex flex-row mt-2 md:mt-5 space-x-4 md:space-x-10">
-          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/facebook.png" style="height: 20px; width: 20px;" alt="/">
-          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/instagram.png" style="height: 20px; width: 20px;" alt="/">
-          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/linkedin.png" style="height: 20px; width: 20px;" alt="/">
-          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/twitch.png" style="height: 20px; width: 20px;" alt="/">
-          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/twitter.png" style="height: 20px; width: 20px;" alt="/">
+        <div class="flex flex-row mt-2 md:mt-5 space-x-4 md:space-x-2 h-[10px] w-[10px] sm:h-[20px] sm:w-[20px]">
+          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/facebook.png"  alt="/">
+          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/instagram.png"  alt="/">
+          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/linkedin.png"  alt="/">
+          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/twitch.png"  alt="/">
+          <img class="hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out" src="./images/Footer/twitter.png"  alt="/">
         </div>
       </div>
     </div>

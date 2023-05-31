@@ -17,10 +17,10 @@
 
 
 <div class=" w-[100vw]">
-    <h1 class="  flex justify-center text-3xl md:text-6xl mb-20">Latest Updates</h1>
+    <h1 class="  flex justify-center text-2xl md:text-6xl mb-16">Latest Updates</h1>
 
 
-    <div class="flex justify-center  text-base sm:text-lg md:text-2xl pb-4">
+    <div class="flex justify-center  text-xs sm:text-lg md:text-2xl pb-4">
       <Tab bind:current={current_value}/>
     </div>
  
