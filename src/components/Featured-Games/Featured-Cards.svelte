@@ -9,7 +9,7 @@
 
   </script>
   
-  <div class="bg-white flex  shadow-md rounded-md m-4">
+  <div class="bg-white w-[100%] sm:w-auto flex shadow-md rounded-md ">
     <img src={imageSrc} alt=""> 
     <!-- <h2 class="text-xl font-bold ">{title}</h2>
     <p class="mt-2">{content}</p> -->
