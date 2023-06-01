@@ -1,4 +1,7 @@
 
+<script>
+    import LoginModel from "../LoginModel/LoginModel.svelte";
+</script>
   <div class="container  max-w-full flex justify-end  bg-black h-10">
 
         <div class=" justify-start flex  items-center pr-9" >
@@ -39,6 +42,7 @@
                </svg>
 
                 </button>
+               <LoginModel/>
             </div>
        
         
