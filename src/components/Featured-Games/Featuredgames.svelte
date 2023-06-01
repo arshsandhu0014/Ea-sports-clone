@@ -33,9 +33,9 @@ import Cards from "./Featured-Cards.svelte";
 
 </div>
 
-<div class="flex justify-center">
+<div class="flex justify-center ">
 
-    <button class=" flex items-center text-black   button-border text-2xl ml-5 mt-2 mb-20 pr-10 pl-10 pt-5 pb-5 rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out "> Latest Games</button>
+    <button class=" flex items-center text-black   button-border text-2xl ml-5 mt-10 mb-20 pr-10 pl-10 pt-5 pb-5 rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out "> Latest Games</button>
 </div>
 
 

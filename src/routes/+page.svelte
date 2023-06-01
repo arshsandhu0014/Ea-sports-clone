@@ -8,6 +8,8 @@
 	import LowerCarosuel from "../components/Lower-Carosuel/LowerCarosuel.svelte";
 	import Footer from "../components/Footer/Footer.svelte";
 	import Latestupdate from "../components/Latest-Update/LatestUpdate.svelte";
+	import LogonModel from "../components/LoginModel/LoginModel.svelte";
+	import LoginModel from "../components/LoginModel/LoginModel.svelte";
 
 
 
@@ -16,6 +18,7 @@
 
   </script>
 <Headertip/>
+
 <Navbar/>
 <Carosuel/>
 <Featuredgames/>

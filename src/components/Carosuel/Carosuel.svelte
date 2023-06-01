@@ -5,7 +5,7 @@
         <div class=" flex flex-col justify-center items-start mt-[4rem] mr-[1rem] mb-[10rem] ">
             <h1 class="flex justify-center items-center text-3xl md:text-5xl text-white ml-8 ">EA Publisher Sale</h1>
             <h2 class=" flex justify-center items-center text-white text-xl md:text-2xl ml-10 mt-3">Up to 90% off on top EA titles</h2>
-            <button class=" flex items-center text-black bg-gray-200 text-xl md:text-2xl ml-20 mt-3  p-4 rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out"> Start Saving</button>
+            <button class=" flex items-center text-black bg-gray-200 text-xl md:text-2xl ml-20 mt-12  p-4 rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out"> Start Saving</button>
         </div>
         <div class="flex justify-center items-center ">
 
