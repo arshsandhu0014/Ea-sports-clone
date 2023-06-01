@@ -8,7 +8,7 @@
         <h2 class="flex justify-center items-center text-white text-lg md:text-xl mt-3">exclusive rewards, members-only content, and a library of top titles.</h2>
         <button class="button-border-white flex items-center text-white text-lg md:text-2xl ml-10 mt-6 mb-8 p-3 md:p-4 rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out">Join Now</button>
       </div>
-      <div class="ea-lower-img flex justify-between w-[100vw] mt-28 bg-[url('images/lower-corosuel/blue-bg-lower.jpg')]">
+      <div class="ea-lower-img flex justify-between w-[100vw] mt-28 bg-[url('/images/lower-corosuel/blue-bg-lower.jpg')]">
         <div class="flex justify-between w-[100%] m-5 mr-1 md:mr-5">
           <h1 class="flex justify-start items-center text-2xl md:text-3xl text-black pt-2 pb-6 pr-8 pl-4 md:pl-20">FIFA 23 is now on The Play List</h1>
           <div class="flex justify-end">
