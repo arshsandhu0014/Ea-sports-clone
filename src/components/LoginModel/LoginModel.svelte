@@ -86,18 +86,18 @@
   
   {#if isSigninModalOpen}
   <div class="modal">
-    <div class="container w-[50%]">
+    <div class="container w-[70%]">
 
       <div class="modal-content">
         <h2>Sign up</h2>
         <!-- Add user form -->
-        <form on:submit|preventDefault>
+        <form class= on:submit|preventDefault>
           <input type="FirstName" placeholder="FirstName" bind:value="{FirstName}" required />
           <input type="lastName" placeholder="LastName" bind:value="{lastName}" required />
           <input type="email" placeholder="Email" bind:value="{email}" required />
           <input type="password" placeholder="Password" bind:value="{password}" required />
-          <button type="submit" on:click="{() => addUser({ email, password,FirstName,lastName })}">Sign Up</button>
-          <button on:click="{signinCloseModal}">Close</button>
+          <button class="p-4 bg-slate-400 mx-4" type="submit" on:click="{() => addUser({ email, password,FirstName,lastName })}">Sign Up</button>
+          <button class="p-4 bg-red-400 mx-4" on:click="{signinCloseModal}">Close</button>
         </form>
       </div>
     </div>
@@ -115,8 +115,8 @@
         <form on:submit|preventDefault>
           <input type="email" placeholder="Email" bind:value="{email}" required />
           <input type="password" placeholder="Password" bind:value="{password}" required />
-          <button type="submit" on:click="{loginUser}">Login</button>
-          <button  on:click="{loginCloseModal}">Close</button>
+          <button class="p-4 bg-slate-400 mx-4" type="submit" on:click="{loginUser}">Login</button>
+          <button class="p-4 bg-red-400 mx-4" on:click="{loginCloseModal}">Close</button>
         </form>
       </div>
       </div>
