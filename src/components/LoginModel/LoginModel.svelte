@@ -95,7 +95,7 @@
           <input class="mb-2 p-2 bg-transparent " type="FirstName" placeholder="FirstName" bind:value="{FirstName}" required />
           <input class="mb-2 p-2 bg-transparent" type="lastName" placeholder="LastName" bind:value="{lastName}" required />
           <input class="mb-2 bg-transparent" type="email" placeholder="Email" bind:value="{email}" required />
-          <input class="mb-2" type="password" placeholder="Password" bind:value="{password}" required />
+          <input class="mb-2 bg-transparent" type="password" placeholder="Password" bind:value="{password}" required />
           <button class="p-3 bg-blue-400 mx-2" type="submit" on:click="{() => addUser({ email, password,FirstName,lastName })}">Sign Up</button>
           <button class="p-3 bg-red-400 mx-2" on:click="{signinCloseModal}">Close</button>
         </form>
