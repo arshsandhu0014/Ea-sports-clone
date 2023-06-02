@@ -1,5 +1,5 @@
 
-  <div class=" h-56 w-[100vw] ">
+  <div class=" h-56 w-[100%] ">
     <div class=" bg-[#eaeaea] h-56 w-[100%] flex justify-between  text-xl pl-4 md:pl-2 pt-5 ">
         <div class="">
             <a class="p-2 md:p-5" href="http://">Careers</a>

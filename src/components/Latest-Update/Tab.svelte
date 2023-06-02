@@ -44,5 +44,7 @@
   .selected {
 		border-bottom-color: #ff3e00;
 		color: #ff3e00;
+		background-color: #f3f3f3;
+		border-bottom-color: #ff3e00;
 	}
 </style>

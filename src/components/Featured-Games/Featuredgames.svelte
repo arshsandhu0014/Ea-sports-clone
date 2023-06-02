@@ -4,14 +4,14 @@
 import Cards from "./Featured-Cards.svelte";
 
     let cards = [
-  { title: 'Card 1', content: 'Content for Card 1' , imageSrc:'./images/Featured-games/star-wars-.jpg', },
-  { title: 'Card 2', content: 'Content for Card 2', imageSrc:'./images/Featured-games/ea-sports.jpg' },
-  { title: 'Card 3', content: 'Content for Card 3', imageSrc:'./images/Featured-games/the-sims.jpg' },
-  { title: 'Card 3', content: 'Content for Card 3', imageSrc:'./images/Featured-games/eas-fifa.jpg' },
-  { title: 'Card 3', content: 'Content for Card 3', imageSrc:'./images/Featured-games/madden-23.jpg' },
-  { title: 'Card 3', content: 'Content for Card 3', imageSrc:'./images/Featured-games/apex-legends.jpg' },
+  { title: 'Card 1', content: 'Content for Card 1' , imageSrc:'./images/Featured-games/star-wars-.jpg', imageSrcLogo:'/images/Featured-games/logo/star-wars.svg'},
+  { title: 'Card 2', content: 'Content for Card 2', imageSrc:'./images/Featured-games/ea-sports.jpg', imageSrcLogo:'/images/Featured-games/logo/pga.svg'},
+  { title: 'Card 3', content: 'Content for Card 3', imageSrc:'./images/Featured-games/the-sims.jpg', imageSrcLogo:'/images/Featured-games/logo/thesims.svg'},
+  { title: 'Card 3', content: 'Content for Card 3', imageSrc:'./images/Featured-games/eas-fifa.jpg',imageSrcLogo:'/images/Featured-games/logo/fifa23.svg' },
+  { title: 'Card 3', content: 'Content for Card 3', imageSrc:'./images/Featured-games/madden-23.jpg',imageSrcLogo:'/images/Featured-games/logo/m23.svg' },
+  { title: 'Card 3', content: 'Content for Card 3', imageSrc:'./images/Featured-games/apex-legends.jpg', imageSrcLogo:'/images/Featured-games/logo/apex-legends.svg' },
 ];
- 
+
 </script>
 
 <div class="container  w-[100]">
@@ -22,7 +22,7 @@ import Cards from "./Featured-Cards.svelte";
      <div class="bg-white shadow-md rounded-md mr-2 ml-2 sm:ml-44 sm:mr-44">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
       {#each cards as card, i}
-        <Cards imageSrc={card.imageSrc} />
+        <Cards imageSrc={card.imageSrc} imageSrcLogo={card.imageSrcLogo} />
 
       {/each}
     </div>
