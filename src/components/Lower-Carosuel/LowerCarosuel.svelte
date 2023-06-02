@@ -19,6 +19,10 @@
         </div>
       </div>
     </div>
+    <div class="flex justify-center ">
+
+      <button class=" flex items-center text-black   button-border text-2xl ml-5 mt-5 mb-2 pr-10 pl-10 pt-5 pb-5 rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out "> Latest Games</button>
+  </div>
   </div>
   
   <style>
@@ -41,7 +45,7 @@
       left: 0;
       line-height: 0;
      
-      width: 100vw;
+      width: 100%;
       height:max-content;
     }
   
