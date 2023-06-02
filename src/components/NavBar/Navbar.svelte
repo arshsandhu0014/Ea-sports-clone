@@ -23,14 +23,14 @@
   </div>
 
   <div class="container flex justify-start items-center ml-5 md:hidden">
-    <button class="dropdown-btn" on:click={toggleDropdown}>Menu</button>
+    <button class="dropdown-btn rounded-md button-border " on:click={toggleDropdown}>Menu</button>
   </div>
 
-  <div class="container flex justify-start justify-items-start hidden md:flex">
+  <div class="container justify-center justify-items-start hidden md:flex">
     <div class="dropdown ml-5" on:mouseenter={ toggleDropdown} on:mouseleave={closeDropdown}>
-      <button class="dropdown-btn">Games</button>
+      <button class="dropdown-btn ">Games</button>
       {#if isDropdownOpen}
-        <div class="dropdown-content flex-row">
+        <div class="dropdown-content flex-row items-center p-4">
           <a href="/">BROWSE GAMES</a>
           <a href="/">Latest Games</a>
           <a href="/">Coming Soon</a>
@@ -151,5 +151,11 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .button-border {
+      border-style: solid;
+      border-color: rgb(0, 0, 0);
+      border-width: 2px;
+    }
 </style>
 

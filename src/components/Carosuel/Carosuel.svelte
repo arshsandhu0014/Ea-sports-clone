@@ -24,7 +24,7 @@
                         
                         <div class="sm:mt-5 sm:mb-5">
                             
-                            <button class=" flex flex-col items-center text-black   button-border text-xs sm:text-sm md:text-2xl  mt-1  mr-4 ml-4 pr-3 pl-3 pt-1 pb-1 md:pr-8 md:pl-8 md:pt-5 md:pb-5 md:mr-20  rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out"> Join Now</button>
+                            <button class=" flex flex-col justify-center items-center text-black   button-border text-xs sm:text-sm md:text-2xl  mt-2 mb-2  mr-4 ml-4 pr-2 pl-2 pt-1 pb-1 md:pr-8 md:pl-8 md:pt-5 md:pb-5 md:mr-20  rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out"> Join Now</button>
                             
                         </div>
                         

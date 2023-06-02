@@ -89,15 +89,15 @@
     <div class="container w-[70%]">
 
       <div class="modal-content">
-        <h2>Sign up</h2>
+        <h2 class="mb-4">Sign up</h2>
         <!-- Add user form -->
         <form class= on:submit|preventDefault>
-          <input type="FirstName" placeholder="FirstName" bind:value="{FirstName}" required />
-          <input type="lastName" placeholder="LastName" bind:value="{lastName}" required />
-          <input type="email" placeholder="Email" bind:value="{email}" required />
-          <input type="password" placeholder="Password" bind:value="{password}" required />
-          <button class="p-4 bg-slate-400 mx-4" type="submit" on:click="{() => addUser({ email, password,FirstName,lastName })}">Sign Up</button>
-          <button class="p-4 bg-red-400 mx-4" on:click="{signinCloseModal}">Close</button>
+          <input class="mb-2" type="FirstName" placeholder="FirstName" bind:value="{FirstName}" required />
+          <input class="mb-2" type="lastName" placeholder="LastName" bind:value="{lastName}" required />
+          <input class="mb-2" type="email" placeholder="Email" bind:value="{email}" required />
+          <input class="mb-2" type="password" placeholder="Password" bind:value="{password}" required />
+          <button class="p-3 bg-slate-400 mx-2" type="submit" on:click="{() => addUser({ email, password,FirstName,lastName })}">Sign Up</button>
+          <button class="p-3 bg-red-400 mx-2" on:click="{signinCloseModal}">Close</button>
         </form>
       </div>
     </div>
@@ -113,10 +113,10 @@
 
         <h2 >Login</h2>
         <form on:submit|preventDefault>
-          <input type="email" placeholder="Email" bind:value="{email}" required />
-          <input type="password" placeholder="Password" bind:value="{password}" required />
-          <button class="p-4 bg-slate-400 mx-4" type="submit" on:click="{loginUser}">Login</button>
-          <button class="p-4 bg-red-400 mx-4" on:click="{loginCloseModal}">Close</button>
+          <input class="mb-2" type="email" placeholder="Email" bind:value="{email}" required />
+          <input class="mb-2" type="password" placeholder="Password" bind:value="{password}" required />
+          <button  class=" mt-4 mx-2 p-2 bg-slate-400" type="submit" on:click="{loginUser}">Login</button>
+          <button  class="p-2 mx-2 bg-red-400" on:click="{loginCloseModal}">Close</button>
         </form>
       </div>
       </div>
