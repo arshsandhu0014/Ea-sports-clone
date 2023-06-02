@@ -14,16 +14,22 @@ console.log(imageSrc);
   
   <div class="   relative sm:w-auto flex shadow-2xl rounded-md ">
   
-    <div class="z-[1] logo flex justify-center items-center w-[100%] h-[100%]  hover:bg-gradient-to-r from-blue-900 to-red-900 opacity-75 ">
+    <div class="z-[1] logo flex justify-center items-center w-[100%] h-[100%] bg-grad ">
       <img class="h-[10rem] w-[10rem] slide-top " src={imageSrcLogo} alt="/">
 
     </div>
+
     
-    <div class="eapl-game-box__background-link ">
+
+      <div class="eapl-game-box__background-link ">
       <img class="  " src={imageSrc} alt="/"> 
     </div>
   </div>
   <style>
+.bg-grad:hover{
+  background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0.8324579831932774) 0%, rgba(215,20,20,0.8380602240896359) 100%);
+}
 
 
 .logo{
@@ -34,7 +40,7 @@ console.log(imageSrc);
   right: 0;
   
   justify-content: center;
-  z-index: 2;
+  z-index: 1;
 }
 
 .eapl-game-box__background-link {
