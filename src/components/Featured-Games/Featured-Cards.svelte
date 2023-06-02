@@ -67,13 +67,13 @@
       transform: translateY(0);
     }
     100% {
-      transform: translateY(-100px);
+      transform: translateY(-50px);
     }
   }
 
   /* Apply slide animation on hover */
   .parent:hover .slide-top {
-    animation: slide-top 0.5s ease-out both;
+    animation: slide-top 0.7s ease-out both;
   }
 
 /* ----------------------------------------------
@@ -106,8 +106,8 @@
   0% {
     -webkit-transform: scale(0.5);
             transform: scale(0.5);
-    -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
+    -webkit-transform-origin: 25% 0%;
+            transform-origin: 25% 0%;
   }
   100% {
     -webkit-transform: scale(1);
