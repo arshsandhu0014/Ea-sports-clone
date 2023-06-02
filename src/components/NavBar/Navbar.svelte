@@ -28,9 +28,9 @@
 
   <div class="container justify-center justify-items-start hidden md:flex">
     <div class="dropdown ml-5" on:mouseenter={ toggleDropdown} on:mouseleave={closeDropdown}>
-      <button class="dropdown-btn ">Games</button>
+      <button class="dropdown-btn bg-black ">Games</button>
       {#if isDropdownOpen}
-        <div class="dropdown-content flex-row items-center p-4">
+        <div class="dropdown-content flex-row items-center  p-4">
           <a href="/">BROWSE GAMES</a>
           <a href="/">Latest Games</a>
           <a href="/">Coming Soon</a>
@@ -102,13 +102,13 @@
 
 {#if isDropdownOpen}
   <div class="container md:hidden">
-    <div class=" flex flex-col ">
-      <a href="/">Games</a>
-      <a href="/">More Experiences</a>
-      <a href="/">Coming Soon</a>
-      <a href="/">About</a>
-      <a href="/">Commitments</a>
-      <a href="/">Resources</a>
+    <div class=" flex flex-col justify-center items-center  bg-gray-300">
+      <a class=" m-2 p-2  bg-violet-400  text-white button-border" href="/">Games</a>
+      <a class=" m-2 p-2 bg-violet-400 text-white button-border" href="/">More Experiences</a>
+      <a class=" m-2 p-2 bg-violet-400 text-white button-border" href="/">Coming Soon</a>
+      <a class=" m-2 p-2 bg-violet-400 text-white button-border"  href="/">About</a>
+      <a class=" m-2 p-2 bg-violet-400 text-white  button-border" href="/">Commitments</a>
+      <a class=" m-2 p-2 bg-violet-400 text-white  button-border" href="/">Resources</a>
     </div>
   </div>
 {/if}
