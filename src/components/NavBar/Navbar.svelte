@@ -28,7 +28,7 @@
 
   <div class="container justify-center justify-items-start hidden md:flex">
     <div class="dropdown ml-5" on:mouseenter={ toggleDropdown} on:mouseleave={closeDropdown}>
-      <button class="dropdown-btn bg-black ">Games</button>
+      <button class="dropdown-btn  ">Games</button>
       {#if isDropdownOpen}
         <div class="dropdown-content flex-row items-center  p-4">
           <a href="/">BROWSE GAMES</a>
