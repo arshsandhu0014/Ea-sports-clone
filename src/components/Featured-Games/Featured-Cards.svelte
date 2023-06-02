@@ -67,7 +67,7 @@
       transform: translateY(0);
     }
     100% {
-      transform: translateY(-100px);
+      transform: translateY(-60px);
     }
   }
 
@@ -106,8 +106,8 @@
   0% {
     -webkit-transform: scale(0.5);
             transform: scale(0.5);
-    -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
+    -webkit-transform-origin: 25% 0%;
+            transform-origin: 25% 0%;
   }
   100% {
     -webkit-transform: scale(1);
