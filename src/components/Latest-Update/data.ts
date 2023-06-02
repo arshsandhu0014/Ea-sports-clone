@@ -16,10 +16,10 @@
   ];
   
   export let starWars_cards_data = [
-    { title: 'FIFA 23 | Pitch Notes - Title Update #9', content: 'Title Update #9 (TU #9) includes updates to multiple areas of gameplay, including player movement, jockeyed interceptions, tackling and more' , imageSrc:'./images/LatestUpdate/cards/Starwars/1.png', },
-    { title: 'FIFA 23 | Pitch Notes - UWCL and NWSL Deep Dive - EA SPORTS', content: 'Announcing the addition of the UEFA Womens Champions League(UWCL), and the National Women sSoccer League (NWSL)', imageSrc:'./images/LatestUpdate/cards/Starwars/2.jpg' },
-    { title: 'Club Mascots Return to Ultimate Team - EA SPORTS Official Site', content: 'Club Mascots Return to Ultimate Team', imageSrc:'./images/LatestUpdate/cards/Starwars/3.jpg' },
-    { title: 'EA SPORTS FIFA World Cup 2022™ Prediction', content: 'EA SPORTS™ predicts Argentina to win the FIFA World Cup 2022. See how the tournament played out in the FIFA 23 simulation', imageSrc:'./images/LatestUpdate/cards/Starwars/4.jpg' },
+    { title: 'Star Wars™ Jedi: Fallen Order | Next Gen Release Details', content: 'Respawn, EA, and Lucasfilm Games announce the release of Star Wars™ Jedi: Fallen Order on the PlayStation 5 and Xbox Series X|S.' , imageSrc:'./images/LatestUpdate/cards/Starwars/1.png', },
+    { title: 'STAR WARS™: Squadrons - Balancing Update - 6 May - EA Official Site', content: 'Announcing the addition of the UEFA Womens Champions League(UWCL), and the National Women sSoccer League (NWSL)', imageSrc:'./images/LatestUpdate/cards/Starwars/2.jpg' },
+    { title: 'Club Mascots Return to Ultimate Team - EA SPORTS Official Site', content: 'Server-side starfighter balancing', imageSrc:'./images/LatestUpdate/cards/Starwars/3.jpg' },
+    { title: 'Take Off in STAR WARS™: Squadrons with EA Play EA Official Site', content: 'STAR WARS™: Squadrons is now available in the Play List.', imageSrc:'./images/LatestUpdate/cards/Starwars/4.jpg' },
     { title: 'FIFA 23 | Pitch Notes - FIFA World Cup', content: 'We are excited to share lots of details about the upcoming FIFA World Cup 2022™ experience in FIFA 23.', imageSrc:'./images/LatestUpdate/cards/Starwars/5.jpg' },
     { title: '23 Days of FIFA 23', content: 'See the best achievements from the EA SPORTS™ FIFA 23 community in the first 23 days since the release of The Worlds Game.', imageSrc:'./images/LatestUpdate/cards/Starwars/6.jpg' },
   ];

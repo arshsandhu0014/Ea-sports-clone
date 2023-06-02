@@ -27,7 +27,7 @@
     <div class=" flex justify-center  ">
 
       <div class="flex justify-center">
-        <div class="bg-white flex justify-self-center shadow-md rounded-md ">
+        <div class="bg-white flex justify-self-center shadow-xl rounded-md ">
        <div class=" grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 gap-4 ">
         {#if (current_value =="eaNews")}
          {#each eaNews_cards_data as eaNews, i}
