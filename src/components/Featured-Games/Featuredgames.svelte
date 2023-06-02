@@ -63,7 +63,7 @@
 
 <!-- Latest Games Button -->
 <div class="flex justify-center">
-  <button class="flex items-center text-black button-border text-2xl ml-5 mt-10 mb-20 pr-10 pl-10 pt-5 pb-5 rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out">
+  <button class="flex items-center text-black button-border text-lg ml-5 mt-10 mb-20 pr-6 pl-6 pt-4 pb-4 rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out">
     Latest Games
   </button>
 </div>

@@ -67,13 +67,13 @@
       transform: translateY(0);
     }
     100% {
-      transform: translateY(-50px);
+      transform: translateY(-60px);
     }
   }
 
   /* Apply slide animation on hover */
   .parent:hover .slide-top {
-    animation: slide-top 0.7s ease-out both;
+    animation: slide-top 0.5s ease-out both;
   }
 
 /* ----------------------------------------------
