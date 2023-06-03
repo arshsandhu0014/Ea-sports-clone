@@ -20,9 +20,10 @@
     <h1 class="  flex justify-center text-2xl md:text-6xl mb-16">Latest Updates</h1>
 
 
-    <div class="flex justify-center  text-xs sm:text-lg md:text-2xl pb-4">
+    <div class="flex justify-start ml-[4%] md:ml-[8%] lg:ml-[12%]  text-xs sm:text-lg md:text-2xl">
       <Tab bind:current={current_value}/>
     </div>
+    <hr>
  
     <div class=" flex justify-center  ">
 
@@ -84,7 +85,7 @@
     </div>
     <div class="flex justify-center ">
 
-      <button class=" flex items-center text-black   button-border text-2xl ml-5 mt-5 mb-2 pr-10 pl-10 pt-5 pb-5 rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out "> Read More</button>
+      <button class=" flex items-center text-black   button-border text-lg ml-5 mt-16 mb-5 pr-6 pl-6 pt-4 pb-4 rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out "> Read More</button>
   </div>
     
 </div>
