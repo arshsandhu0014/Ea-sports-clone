@@ -1,4 +1,4 @@
-a-sports-clone
+Ea-sports-clone
 
 This project is a clone of the popular video game development company, EA Sports. The aim of this project is to replicate some of the features and functionalities of EA Sports games using web technologies.
 
