@@ -9,20 +9,17 @@
         <button class="button-border-white flex items-center text-white text-lg md:text-2xl ml-10 mt-6 mb-8 p-3 md:p-4 rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out">Join Now</button>
       </div>
       <div class="ea-lower-img flex justify-between w-[100vw] mt-28 bg-[url('/images/lower-corosuel/blue-bg-lower.jpg')]">
-        <div class="flex justify-between w-[100%] m-5 mr-1 md:mr-5">
-          <h1 class="flex justify-start items-center text-2xl md:text-3xl text-black pt-2 pb-6 pr-8 pl-4 md:pl-20">FIFA 23 is now on The Play List</h1>
+        <div class="flex justify-between w-[100%] m-2 mr-1 md:mr-5">
+          <h1 class="flex justify-start items-center text-lg md:text-2xl text-black pt-2 pb-6  pl-4 md:pl-20">FIFA 23 is now on The Play List</h1>
           <div class="flex justify-end">
-            <div class="pt-2 pr-8 md:pr-28">
-              <button class="flex items-center text-black button-border text-lg md:text-2xl ml-3 mt-1 pr-4 pl-4 pt-2 pb-2 rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out">Learn more</button>
+            <div class="pt-2 pr-1 md:pr-28">
+              <button class="flex items-center text-black button-border text-xs sm:text-lg md:text-2xl ml-2  pr-2 pl-2 pt-2 pb-2 rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out">Learn more</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="flex justify-center ">
 
-      <button class=" flex items-center text-black   button-border text-2xl ml-5 mt-5 mb-2 pr-10 pl-10 pt-5 pb-5 rounded hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out "> Latest Games</button>
-  </div>
   </div>
   
   <style>

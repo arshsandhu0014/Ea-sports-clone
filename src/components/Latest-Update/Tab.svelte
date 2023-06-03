@@ -2,49 +2,68 @@
 	export let current:string = 'eaNews';
 </script>
 
-<button
-	class="{current === 'eaNews' ? 'selected' : ''}  p-1 sm:p-2"
-	on:click="{() => current = 'eaNews'}"
->Ea News </button>
 
-<button
-	class="{current === 'fifa' ? 'selected' : ''} p-1 sm:p-4"
+<div class="flex justify-start">
+	
+	<button
+	class="{current === 'eaNews' ? 'selected' : ''} select p-1 sm:p-2"
+	on:click="{() => current = 'eaNews'}"
+	>Ea News </button>
+
+	<button
+	class="{current === 'fifa' ? 'selected' : ''} select p-1 sm:p-4"
 	on:click="{() => current = 'fifa'}"
 >FIFA</button>
 
 <button
-	class="{current === 'starWars' ? 'selected' : ''} p-1 sm:p-4"
-	on:click="{() => current = 'starWars'}"
+class="{current === 'starWars' ? 'selected' : ''} select p-1 sm:p-4"
+on:click="{() => current = 'starWars'}"
 >Star Wars </button>
 
 <button
-	class="{current === 'madden' ? 'selected' : ''} p-1 sm:p-4"
-	on:click="{() => current = 'madden'}"
+class="{current === 'madden' ? 'selected' : ''} select p-1 sm:p-4"
+on:click="{() => current = 'madden'}"
 >Madden </button>
 <button
-	class="{current === 'apexLegends' ? 'selected' : ''} p-1 sm:p-4"
-	on:click="{() => current = 'apexLegends'}"
+class="{current === 'apexLegends' ? 'selected' : ''}  select p-1 sm:p-4"
+on:click="{() => current = 'apexLegends'}"
 >ApexLegends </button>
 <button
-	class="{current === 'theSims' ? 'selected' : ''} p-1 sm:p-4"
-	on:click="{() => current = 'theSims'}"
+class="{current === 'theSims' ? 'selected' : ''} select  p-1 sm:p-4"
+on:click="{() => current = 'theSims'}"
 >theSims </button>
 
 <button
-	class="{current === 'f1' ? 'selected' : ''} p-1 sm:p-4"
+class="{current === 'f1' ? 'selected' : ''} select p-1 sm:p-4"
 	on:click="{() => current = 'f1'}"
 >F1</button>
+
+</div>
+
 
 <style>
 	/* .button {
 		display: block;
 		margin-left: 8rem;
 	} */
-
-  .selected {
-		border-bottom-color: #ff3e00;
-		color: #ff3e00;
+	
+	.selected {
+		
+		
+		color: #373231;
 		background-color: #f3f3f3;
 		border-bottom-color: #ff3e00;
+		border-width: 2px;
+		
 	}
+	.select:hover {
+		
+		
+		color: #373231;
+		background-color: #f3f3f3;
+	
+		
+	}
+
+	
 </style>

@@ -23,7 +23,7 @@
   </div>
 
   <div class="container flex justify-start items-center ml-5 md:hidden">
-    <button class="dropdown-btn rounded-md button-border " on:click={toggleDropdown}>Menu</button>
+    <button class="dropdown-btn text-xs  rounded-md button-border " on:click={toggleDropdown}>Menu</button>
   </div>
 
   <div class="container justify-center justify-items-start hidden md:flex">
